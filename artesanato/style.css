@@ -22,12 +22,14 @@
     header{
         background-color: #2c2115;
         border-radius: 0.5px;
+        
     }
 
     header img{
-        width: 100%;
-        margin: auto;
-        padding: auto;
+        background-size: 100%;
+        max-width: 400px;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     
@@ -74,7 +76,9 @@
         }
 
 
-    main{background-color: #2c2115;
+    main {
+        
+        background-color: #2c2115;
         margin:auto;
         padding: 20px;
 

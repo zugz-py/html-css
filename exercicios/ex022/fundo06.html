@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuste na vertical</title>
+    <style>
+        #container{
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: rgb(58, 3, 255);
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+        }
+
+        #conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: brown;
+            background-size: 100% 100%;
+            background-image: url(imagens/target001.png);
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate3d(200px 800px)
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
